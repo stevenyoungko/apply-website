@@ -1,32 +1,69 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
+    <h3>申請人</h3>
+    <p class="text">
+      柯炫仰
     </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
+    <hr>
+    <h3>個人簡介</h3>
+    <p class="text">
+      我是今年畢業於輔仁大學統計資訊學系，在大二的時候意外的接觸網路前端這塊，對這個新興產業相當感興趣，便一頭栽進去學習。
+      在大四的時候，便到外面尋求前端的實習機會，便有幸的在天堂遊戲公司擔任前端工程師實習生一職整整一年，也順利的在畢業後轉正，
+      結果剛轉正一個月便被徵招去當兵，最近才剛剛退伍。平時都有關注彭彭老師的東西，剛好在Fb看到這個扶植計畫，
+      看到課程裡面的內容相當新穎有趣，便想抓住這個機會在增進自己的實力，畢竟當兵當到都變笨了 哈哈XD~~
+    </p>
+    <hr>
+    <h3>為什麼想成為軟體工程師</h3>
+    <p class="text">
+      在大學初期，在唸自己本科系時其實相當迷茫，總覺得東學點西學點，沒有什麼連貫性，畢業後也沒有明確目標說要做什麼樣的工作。
+      大二上學期也有上過java程式課程，上課內容相當基本枯燥，不是在算bmi就是在畫那個三角形，覺得相當無趣不知道學這個要幹嘛，
+      也就沒有學得很好，所以就索性認為自己對程式這塊應該是沒有天分。好在意外的接觸網頁前端，沒想到了解一些基本的html和css後，
+      竟然可以在網頁上馬上看到結果，突然就對這塊產生濃厚興趣，然後看到別人網頁可以動的相當活潑，就非常好奇為什麼可以這樣，
+      一查之下才發現是js這個程式語言，因此就是矇矇懂懂的開始瞎寫，直到靠自己稍微寫點出來我才真的覺得自己真的是在寫程式，
+      雖然寫的code還不怎麼樣，但算是有個起頭了，就這樣一路寫到現在。考慮到現實面，其實這塊的薪資算是相當不錯，
+      也發現大學一路下來只會這個qq，所以就毅然決然的選擇了軟體工程師這條路。
+    </p>
+    <hr>
+    <h3>成為了網站工程師，你曾經做過什麼樣的努力？</h3>
+    <p class="text">
+      最一開始接觸這塊是透過hawhow上面的教學影片開始的，主要內容是css、html，試著做出靜態網頁出來。後來發現如果要呈現大量資料，
+      如果單單只用靜態編寫，會寫到死，而且只要修改網站內容就要重新再修改code，是一件非常吃力不討好的事情，因此稍微接觸到後端。
+      當初學的是ruby的框架rails，也試著做出可以由資料庫提供資料的動態網站出來。但沒有因此繼續專研後端，
+      所以對後端的領域還是存在著相當大的未知數，當時主要都專注於前端的開發和練習，直到進入職場後，發現和後端合作時，
+      偶爾真的聽不懂他們在講哪國語言，因此想透過這個計畫去完整的深入了解前、後端的東西，尤其是後端，我想有了廣闊的視角之後，
+      在解決問題時，就可以更精準的知道問題在哪，不用老是麻煩前輩。
+    </p>
+    <hr>
+    <h3>對於工程師的職業想像是什麼？</h3>
+    <p class="text">
+      說真的從來沒有想過今天會朝工程師這塊發展，以前念書的時候以為工程師就是那些物理、數學很出色的人才會去做的職業，偏偏我這兩科都普通而已，
+      當時的志願方向比較偏像財經那類。起初對工程師的想像就是錢很多，但是同時得付出你的肝臟作為代價，進去台積電，人生直接光明
+      （雖然江湖上流傳外面的人想進去，但裡面的人卻想出來 哈哈）這樣。但後來踏入這塊領域之後，發現並不是所有類別的工程師都是這樣，
+      至少目前待在的前端產業沒有外面流傳的那樣誇張，但很有可能是我還涉世未深，所以先不把話說死，肯定是有辛苦的地方，各個行業都有，
+      但至少目前還沒收到軟體工程師大量爆肝而死的消息。
+    </p>
+    <hr>
+    <h3>如果參與這個計畫，會怎麼安排學習時間？</h3>
+    <p class="text">
+      這就是我目前最擔心的事情，由於平日要上班，所以基本上學習的時間就是晚上，還有假日這樣。
+      當然還有利用各種空擋都可以學習，畢竟手機、筆電在身，airpods戴上去任何地方都不會阻礙渴望學習的心的。
+    </p>
+    <hr>
+    <h3>如果參與這個計畫，預期會碰到什麼困難？你打算怎麼解決它？</h3>
+    <p class="text">
+      １. 對我來說遇到最大的困難應該就後端這塊，因為真的沒有太深的概念 -> 解決方案就是上課認真聽，再不懂就求助谷歌大神協助了。
+      <br>
+      ２. 由初階工程師邁向高級工程師，我想這是每個人必經的障礙 -> 解決方案就是找對方法學習，
+      自己認為一個前端工程師只懂前端遠遠不夠，很多東西都會扯到後端，因此融會貫通很重要。
+      <br>
+      目前覺得會卡關的兩點應該就是以上兩點。
+    </p>
+    <hr>
+    <h3>想要對我們說的事情？</h3>
+    <p class="text">  
+      很感謝彭彭老師成立了這個扶植營，因為外面的課程要學到這麼多東西真的很貴，而老師的這個價錢就很親民，所以非常謝謝老師。
+    </p>
   </div>
 </template>
 
@@ -55,4 +92,7 @@ li {
 a {
   color: #42b983;
 }
+.text {
+  margin-left: 16px;
+} 
 </style>
